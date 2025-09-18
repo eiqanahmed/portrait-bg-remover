@@ -1,3 +1,5 @@
+You don't have to install the dataset to test this model (you can directly run remove_bg.py), but if you would like to train it further, consider the following instructions to download the dataset used to train this model.
+
 # Dataset Installation
 
 ## People Segmentation Dataset
