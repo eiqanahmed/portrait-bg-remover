@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import tensorflow as tf
 from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, EarlyStopping, CSVLogger, BackupAndRestore
 from tensorflow.keras import mixed_precision
-from model import build_model  # ✅ make sure your model fuses to ONE channel (see note below)
+from model import build_model  
 
 # Mixed precision for T4
 mixed_precision.set_global_policy("mixed_float16")
