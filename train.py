@@ -94,7 +94,7 @@ if __name__ == "__main__":
     num_epochs = 100
 
     #data
-    dataset_path = "path to people_segmentation dataset"
+    dataset_path = "data/person-segmentation/people_segmentation"
     (train_x, train_y), (valid_x, valid_y) = load_dataset(dataset_path, split=0.2)
     print(f"Train: {len(train_x)}/{len(train_y)} - Valid: {len(valid_x)}/{len(valid_y)}")
 
