@@ -1,4 +1,4 @@
-You don't have to install the dataset to test this model (you can directly run remove_bg.py), but if you would like to train it further, consider the following instructions to download the dataset used to train this model.
+In order to remove a background from image(s) you would like, put your image(s) in the 'input_images' directory (When you clone the repository onto your own machine, you will see that the 'input_images' folder already has an example image. You can replace that with the images whose background you would like to remove). After doing so, run `remove_bg.py`. Your output shuld be under '/test/final_outputs'. You don't have to install the dataset to test this model (you can directly run remove_bg.py), but if you would like to train it further, consider the following instructions to download the dataset used to train this model.
 
 # Dataset Installation
 
